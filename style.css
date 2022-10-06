@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: #fefefe;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  background: #fefefe;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.container > * {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+}
+
+.black {
+  background: black;
+}
+
+.plum {
+  background: #673147;
+}
+.lilac {
+  background: #6b4c69;
+}
+
+.java {
+  background: #19bfba;
+}
+
+.aero-blue {
+  background: #b9ffe8;
+}
+.white {
+  background: #fefefe;
+  border: solid black;
+}
+.orange {
+  background: #fa822c;
+}
+button {
+  background-color: #673147;
+  color: #fefefe;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+button:hover {
+  background: #6b4c69;
+}
+
+#cta {
+  background-color: #fa822c;
+  color: #fefefe;
+  transition: 0.8s;
+}
+#cta:hover {
+  padding: 10px;
+}
+
+#submit {
+  background: #19bfba;
+  color: black;
+}
+#submit:hover {
+  background: #b9ffe8;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+h2 {
+  font-size: 30px;
+  margin: 0;
+  width: 100%;
+}
+h3 {
+  font-size: 25px;
+  margin: 0;
+}
+h4 {
+  font-size: 20px;
+  margin: 0;
+}
+.paragraph-size {
+  font-size: 16px;
+  margin: 0;
+}
+
+.header-font {
+  font-family: 'Allura', cursive;
+}
+.titles-font {
+  font-family: 'Amita', cursive;
+}
+
+.normal-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  border: solid 1px #19bfba;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px;
+  padding: 5px;
+}
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#imagestyle {
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+#imagestylebrowse {
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+#gridcontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+#box1 {
+  grid-column: 1/5;
+  border: solid black;
+  height: 50px;
+}
+
+.box2 {
+  grid-column: span 2;
+  border: solid black;
+  height: 50px;
+}
+
+.box3 {
+  border: solid black;
+  height: 50px;
+}
